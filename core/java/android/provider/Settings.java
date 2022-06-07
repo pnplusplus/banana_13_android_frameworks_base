@@ -6669,6 +6669,12 @@ public final class Settings {
         public static final String NAVIGATION_BAR_MODE_OVERLAY = "navigation_bar_mode_overlay";
 
         /**
+         * boolean value. toggles narrow navigation bar in gestural nav mode
+         * @hide
+         */
+        public static final String NAVIGATION_BAR_GESTURAL_NARROW = "navigation_bar_gestural_narrow";
+
+        /**
          * Whether to show material Dismiss All Button for notifications
          * @hide
          */
