@@ -6669,10 +6669,12 @@ public final class Settings {
         public static final String NAVIGATION_BAR_MODE_OVERLAY = "navigation_bar_mode_overlay";
 
         /**
-         * boolean value. toggles narrow navigation bar in gestural nav mode
+         * Gesture navbar IME space.
+         * Supported modes: 0 for normal length, 1 for narrow and 2 for hidden.
+         * Default 0.
          * @hide
          */
-        public static final String NAVIGATION_BAR_GESTURAL_NARROW = "navigation_bar_gestural_narrow";
+        public static final String NAVIGATION_BAR_IME_SPACE = "navigation_bar_ime_space";
 
         /**
          * Whether to show material Dismiss All Button for notifications
@@ -6938,6 +6940,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(BATTERY_LIGHT_MEDIUM_COLOR);
             PRIVATE_SETTINGS.add(BATTERY_LIGHT_FULL_COLOR);
             PRIVATE_SETTINGS.add(BATTERY_LIGHT_REALLYFULL_COLOR);
+            PRIVATE_SETTINGS.add(NAVIGATION_BAR_IME_SPACE);
         }
 
         /**
